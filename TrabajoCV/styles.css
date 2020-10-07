@@ -3,3 +3,6 @@ th{
     font-weight: bold;
     font-family: Arial;
 }
+table{
+    border: 1px black;
+}
