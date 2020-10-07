@@ -11,8 +11,39 @@
         <fieldset id="Datos personales">
             <legend>Datos personales</legend>
             <label for="nombre">Nombre</label><br>
-            <input type="text" name="nombre" id="nombre">
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" name="apellidos" id="apellidos"><br>
+            <label for="dni">DNI</label><br>
+            <input type="text" name="dni" id="dni" maxlength="9"><br>
+            <label for="edad">Edad</label><br>
+            <input type="text" name="edad" id="edad" size="2" maxlength="2"><br>
+            <label for="sexo">Sexo</label><br>
+            <select name="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+            </select>
         </fieldset>
+        <fieldset id="Mejor pelicula">
+            <legend>Mejor película</legend>
+            <input type="radio"><label for="pelicula1"> Película 1</label><br>
+            <input type="radio"><label for="pelicula2"> Película 2</label><br>
+            <input type="radio"><label for="pelicula3"> Película 3</label>
+        </fieldset>
+        <fieldset id="Seleccion de peliculas que no hayas visto">
+            <legend>Selección de películas que no hayas visto</legend>
+            <input type="radio"><label for="pelicula1"> Película 1</label><br>
+            <input type="radio"><label for="pelicula2"> Película 2</label><br>
+            <input type="radio"><label for="pelicula3"> Película 3</label><br>
+            <input type="radio"><label for="pelicula4"> Película 4</label><br>
+            <input type="radio"><label for="pelicula5"> Película 5</label>
+        </fieldset>
+        <fieldset id="Argumento de la pelicula que mas te gusto">
+            <legend>Argumento de la película que mas te gusto</legend>
+            <textarea name="argumento gusto pelicula" id="argumento gusto pelicula" cols="120" rows="10"></textarea>
+        </fieldset>
+        <button>Borrar formulario</button>
+        <button>Enviar</button>
     </form>
 </body>
 </html>
