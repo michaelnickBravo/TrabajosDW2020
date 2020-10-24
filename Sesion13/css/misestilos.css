@@ -1,9 +1,19 @@
-body{
-    
+div p{
+    color: blue;
 }
 
-p{
-    color: cadetblue;
-    font-family: Arial;
-    font-size: 15px;
+div, p{
+    color: green;
+}
+
+a {
+    font-size: 20px;
+}
+
+a.link{
+    font-size: 30px;
+}
+
+div div.capa1, div p.texto{
+    color: red;
 }
