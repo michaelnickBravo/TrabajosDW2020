@@ -5,11 +5,40 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/mystile.css">
 </head>
 <body>
     <main class="recibo">
-        <table>
-            <caption>Factura detallada</caption>
+        <header>
+            <img src="img/logo_claro.png" alt="logo_claro" class="logo_claro">
+            <div class="datos_cliente">
+                <p>
+                    Recibo No. T001-0768019467 <br>
+                    Emitido el <b>05/ENE/2020</b> <br>
+                    Nombre: <b>MICHAEL NICK BRAVO MANYARI</b> <br>
+                    Cuenta: 8.10150280.00.00.1000000 <br>
+                    D.N.I: 45832145 <br>
+                    Lima/Lima/Comas/Jr Fherrera 271
+                </p>
+            </div>
+            <table class="resumen_pago">
+                <thead>
+                    <tr>
+                        <th>Total Recibo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>S/ 525.00</b></td></tr>
+                    <tr><td>Paga Antes de <b>23/ENE/2020</b></td></tr>
+                    <tr><td>Codigo de pago <b>9999999999</b></td></tr>
+                </tbody>
+            </table>
+        </header>
+
+        <hr>
+
+        <table class="factura">
+            <caption><b>Factura detallada</b></caption>
             <thead>
                 <tr>
                     <th colspan="5">Claro S.A. - Octubre 2020</th>
