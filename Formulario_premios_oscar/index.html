@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/mystyles.css">
+    <title>Formulario encuesta</title>
+</head>
+<body>
+    <h2><b>NOMINADAS AL OSCAR 2020</b></h2>
+    <div class="formulario">
+        <form id="formulario1" name="formulario1" method="POST" action="data.php">
+            <fieldset id="Datos personales">
+                <legend>Datos personales</legend><br>
+                <label for="nombre">Nombre</label><br><br>
+                <input type="text" name="nombre" id="nombre"><br><br>
+                <label for="apellidos">Apellidos</label><br><br>
+                <input type="text" name="apellidos" id="apellidos"><br><br>
+                <label for="dni">DNI</label><br><br>
+                <input type="text" name="dni" id="dni" maxlength="9"><br><br>
+                <label for="edad">Edad</label><br><br>
+                <input type="text" name="edad" id="edad" size="2" maxlength="2"><br><br>
+                <label for="sexo">Sexo</label><br><br>
+                <select name="sexo"><br>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select><br><br>
+            </fieldset><br>
+            <fieldset id="Mejor pelicula">
+                <legend>Mejor película</legend><br>
+                <input type="radio"><label for="Los parasitos"> Los parasitos</label><br><br>
+                <input type="radio"><label for="Los vengadores"> Los vengadores</label><br><br>
+                <input type="radio"><label for="Toy Story 4"> Toy Story 4</label><br><br>
+            </fieldset><br>
+            <fieldset id="Seleccion de peliculas que no hayas visto">
+                <legend>Selección de películas que no hayas visto</legend><br>
+                <input type="radio"><label for="El hombre araña"> El hombre araña</label><br><br>
+                <input type="radio"><label for="Batman"> Batman</label><br><br>
+                <input type="radio"><label for="Guason"> Guason</label><br><br>
+                <input type="radio"><label for="Los parasitos"> Los parasitos</label><br><br>
+                <input type="radio"><label for="Rapidos y furiosos"> Rapidos y furiosos</label><br><br>
+            </fieldset><br>
+            <fieldset id="Argumento de la pelicula que mas te gusto">
+                <legend>Argumento de la película que mas te gusto</legend><br>
+                <textarea name="argumento gusto pelicula" id="argumento gusto pelicula" cols="120" rows="10"></textarea><br><br>
+            </fieldset><br>
+            <button>Borrar formulario</button>
+            <button>Enviar</button><br><br>
+        </form>
+        <img src="img/premio_oscar4.jpg" alt="">
+    </div>
+</body>
+</html>
