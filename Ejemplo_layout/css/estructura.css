@@ -1,5 +1,5 @@
 main{
-    width: 1200px;
+    width: 100%;
     margin: auto;
 }
 
@@ -10,13 +10,16 @@ header{
 nav{
     background-color: green;
     float: left;
-    width: 300px;
+    width: 30%;
+    height: 550px;
+    margin-bottom: 10px;
 }
 
 article{
     background-color: grey;
     float: left;
-    width: 800px;
+    width: 70%;
+    height: 550px;
 }
 
 footer{
