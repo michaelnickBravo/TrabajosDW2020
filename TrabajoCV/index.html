@@ -10,29 +10,27 @@
     <link rel="icon" href="img/favicon.ico">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: cadetblue;">
-    <h1 style="color:aqua; text-align: center; border: 1px solid #000000; 
-    font-family: Arial, Helvetica, sans-serif;">Michael Nick Bravo Manyari</h1>
-    <a href="#perfil">Perfil</a> <br>
-    <a href="#experiencia">Experiencia profesional</a> <br>
-    <a href="#habilidades">Habilidades y conocimiento</a> <br>
-    <a href="#educacion">Educación</a>
-    <hr>
-    <h2>Datos personales</h2>
-    <ul>
-        <li><strong>Ciudad: </strong>Chiclayo</li>
-        <li><strong>Telefono: </strong>978391240</li>
-        <li><strong>Fecha Nacimiento: </strong>20/10/1996</li>
-        <li><strong>Email: </strong>nickbm@gmail.com</li>
-    </ul>
-    <hr>
-    <h2>Perfil</h2>
-    <p style="text-align: justify;">Profesional dedicado al área de sistemas, con amplia experiencia en desarrollo de software. 
+<body>
+    <h1 class="Titulo">Curriculum Vitae</h1>
+    <nav>
+        <a href="#perfil">Perfil</a>
+        <a href="#experiencia">Experiencia profesional</a>
+        <a href="#habilidades">Habilidades y conocimiento</a>
+        <a href="#educacion">Educación</a>
+    </nav>
+
+    <img src="img/imagen_estudiante.jpg" alt="imagen_estudiante">
+    <h1 class="Nombre">MICHAEL NICK BRAVO MANYARI</h1>
+    <p class="descripcion">
+        Profesional dedicado al <b><i>área de sistemas</i></b>, con amplia experiencia en <b><i>desarrollo de software.</i></b> 
         Presento gran facilidad para el trabajo en equipo y bajo presión, gran responsabilidad y amplio dominio 
-        en varios programas de aplicación como de programación, software educativo, de desarrollo de software.</p>
-    <hr>
+        en <b><i>varios programas de aplicación como de programación, software educativo, de desarrollo de software.</i></b>
+        <hr>
+    </p>
+    <div class="relleno">
+    </div>
     <h2 id="experiencia">Experiencia profesional</h2>
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>Empresa / Organización</th>
@@ -63,7 +61,9 @@
         </tbody>
     </table>
     <hr>
-    <h2>Habilidades y conocimientos</h2>
+    <div class="relleno">
+    </div>
+    <h2 id="conocimiento">Habilidades y conocimientos</h2>
     <ul>
         <li><b>Desarrollo web: </b>HTML5, CSS3, JavaScript, MySQL, Responsive Design, WordPress</li>
         <li><b>Analítica web/métricas: </b>Google Analytics, Mixpanel</li>
@@ -71,5 +71,9 @@
         <li><b>Aplicaciones ofimáticas: </b>Microsofy Office, LibreOffice</li>
         <li><b>Marketing: </b>email marketing, redes sociales, gamificación</li>
     </ul>
+    <footer>
+        Pagina Web Diseñada por - Michael Nick Bravo Manyari <br>
+        Chiclayo - Perú
+    </footer>
 </body>
 </html>

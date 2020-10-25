@@ -1,8 +1,88 @@
-th{
-    color: black;
-    font-weight: bold;
-    font-family: Arial;
+* {
+    margin: 0px;
 }
+
+body{
+    background-color: rgb(30, 92, 163);
+}
+
+.Titulo{
+    color: yellow;
+    font-family: Arial;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    height: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    border-bottom: 2px solid white;
+}
+
+img{
+    width: 150px;
+    margin-top: 10px;
+}
+
+.Nombre{
+    font-family: Arial;
+    color: yellow;
+    font-size: 25px;
+}
+
+.descripcion{
+    text-align: justify;
+    background-color: #99FF99;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.relleno{
+    height: 10px;
+    background-color: #99FF99;
+}
+
+#experiencia, #conocimiento {
+    color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
 table{
-    border: 1px black;
+    background-color: #99FF99;
+    width: 100%;
+}
+
+table th{
+    color: red;
+}
+
+table td{
+    text-align: center;
+}
+
+ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #99FF99; 
+}
+
+ul b{
+    color: blue;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 10px;
 }
