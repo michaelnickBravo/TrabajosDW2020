@@ -1,0 +1,33 @@
+main{
+    display: grid;
+    margin: 0px;
+    grid-template-rows: 150px 320px 150px;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: "header header header" 
+    "nav section aside" "footer footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: rebeccapurple;
+}
+
+nav{
+    grid-area: nav;
+    background-color: skyblue;
+}
+
+section{
+    grid-area: section;
+    background-color: slateblue;
+}
+
+aside{
+    grid-area: aside;
+    background-color: violet;
+}
+
+footer{
+    grid-area: footer;
+    background-color:  rebeccapurple;
+}
