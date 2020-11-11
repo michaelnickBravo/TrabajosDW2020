@@ -1,10 +1,15 @@
+body{
+    margin: 0 auto;
+}
+
 main{
     display: grid;
-    margin: 0px;
-    grid-template-rows: 150px 320px 150px;
-    grid-template-columns: 20% 60% 20%;
-    grid-template-areas: "header header header" 
-    "nav section aside" "footer footer footer";
+    color: gainsboro;
+    max-height: 100vh;
+    grid-template-rows: 100px 50px 1fr 100px 50px;
+    grid-template-columns: 100%;
+    grid-template-areas: "header" 
+    "nav" "section" "aside" "footer";
 }
 
 header{
@@ -30,4 +35,22 @@ aside{
 footer{
     grid-area: footer;
     background-color:  rebeccapurple;
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+    main{
+        grid-template-rows: 150px 100px 1fr 100px;
+        grid-template-columns: 30% 70%;
+        grid-template-areas: "header header" 
+        "nav nav" "aside" "section" "footer footer";
+    }
+}
+
+@media (min-width: 1001px){
+    main{
+        grid-template-rows: 200px 1fr 200px;
+        grid-template-columns: 200px 1fr 200px;
+        grid-template-areas: "header header header" 
+        "nav" "section" "aside" "footer footer footer";
+    }
 }

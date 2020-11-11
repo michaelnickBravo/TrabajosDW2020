@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.formulario{
+    display: flex;
+}
+
+.formulario form fieldset label{
+    color: #fc6625;
+}
+
+.formulario form fieldset legend {
+    color: white;
+}
+
+form{
+    width: 600px;
+}
+
+textarea{
+    width: 500px;
+}
+
+img{
+    width: 800px;
+}
+
+button{
+    margin-left: 5px;
+}

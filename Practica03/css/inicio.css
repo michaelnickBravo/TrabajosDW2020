@@ -1,0 +1,184 @@
+body{
+    margin: 0px auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 170px 60px 520px 200px ;
+    grid-template-areas: "myheader myheader" "mynav mynav" "mysection myaside" "myfooter myfooter";
+}
+
+header{
+    grid-area: myheader;
+    display: flex;
+    background-color: lightseagreen;
+}
+
+nav{
+    grid-area: mynav;
+    background-color: black;
+}
+
+section{
+    grid-area: mysection;
+    padding-right: 10px;
+}
+
+aside{
+    grid-area: myaside;
+    background-color: rgb(47, 201, 193);
+}
+
+footer{
+    grid-area: myfooter;
+}
+
+.img_perfil{
+    width: 200px;
+    margin: 5px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.contenido_noticia1{
+    display: inline-flex;
+    text-align: justify;
+}
+
+.contenido_noticia2{
+    display: inline-flex;
+    text-align: justify;
+}
+
+.menu_aside{
+    background-color: lightseagreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.interes_aside{
+    background-color: lightseagreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_1{
+    display: flex;
+    background-color: lightseagreen;
+}
+
+.footer2{
+    background-color: black;
+    color: blanchedalmond;
+    border: 1px solid;
+    text-align: center;
+}
+
+footer img{
+    width: 190px;
+    margin: 5px 10px;
+}
+
+.footer_1_contacto{
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.footer_1_siguenos{
+    margin-right: 60px;
+}
+
+.footer_1_interes{
+    margin-right: 60px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.estoyAca a{
+    border-bottom: 2px blanchedalmond solid;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.contenido_noticia1 img{
+    margin-left: 10px;
+}
+
+.contenido_noticia2 img{
+    margin-left: 10px;
+}
+
+.footer_1_siguenos ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_1_interes ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_1_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu_aside ul li{
+    margin-bottom: 10px;
+}
+
+.interes_aside ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_contacto ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_siguenos ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_interes ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu_aside ul li a:hover{
+    color: white;
+}
+
+.interes_aside ul li a:hover{
+    color: white;
+}
+
+.footer_1_siguenos ul li a:hover{
+    color: white;
+}
+
+.footer_1_interes ul li a:hover{
+    color: white;
+}
+
+.footer_1_menu ul li a:hover{
+    color: white;
+}

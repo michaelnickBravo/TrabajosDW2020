@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/proyecto02_tabla_factura.css">
+</head>
+<body>
+    <main class="recibo">
+        <header>
+            <img src="img/logo_claro.png" alt="logo_claro" class="logo_claro">
+            <div class="datos_cliente">
+                <p>
+                    Recibo No. T001-0768019467 <br>
+                    Emitido el <b>05/ENE/2020</b> <br>
+                    Nombre: <b>MICHAEL NICK BRAVO MANYARI</b> <br>
+                    Cuenta: 8.10150280.00.00.1000000 <br>
+                    D.N.I: 45832145 <br>
+                    Lima/Lima/Comas/Jr Fherrera 271
+                </p>
+            </div>
+            <table class="resumen_pago">
+                <thead>
+                    <tr>
+                        <th>Total Recibo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td><b>S/ 525.00</b></td></tr>
+                    <tr><td>Paga Antes de <b>23/ENE/2020</b></td></tr>
+                    <tr><td>Codigo de pago <b>9999999999</b></td></tr>
+                </tbody>
+            </table>
+        </header>
+
+        <hr>
+
+        <table class="factura">
+            <caption><b>Factura detallada</b></caption>
+            <thead>
+                <tr>
+                    <th colspan="5">Claro S.A. - Octubre 2020</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="5" style="font-size: 13px;"><em>Claro le informa que puede llamar al número 
+                        gratuito 081-808080 para cualquier duda o sugerencia que tenga acerca de esta factura  
+                        o de nuestros servicios.</em></td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td colspan="5" style="text-align: center;"><b>Detalle de cuotas</b></td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td><b>PERIODO</b></td>
+                    <td><b>CONCEPTO</b></td>
+                    <td><b>IMPORTE</b></td>
+                    <td colspan="2"><b>DESCUENTO</b></td>
+                </tr>
+                <tr>
+                    <td rowspan="3" style="text-align: center;">01/03/19 - 01/04/19</td>
+                    <td>Servicio de identificación de llamadas</td>
+                    <td style="text-align: center;">S/ 120.00 </td>
+                    <td colspan="2" style="text-align: center;">0</td>
+                </tr>
+                <tr>
+                    <td>Linea individual</td>
+                    <td style="text-align: center;">S/ 140.00 </td>
+                    <td colspan="2" style="text-align: center;">0</td>
+                </tr>
+                <tr>
+                    <td>Bono ciudad</td>
+                    <td style="text-align: center;">S/ 100.00 </td>
+                    <td colspan="2" style="text-align: center;">0</td>
+                </tr>
+                <tr>
+                    <td colspan="2">TOTAL:</td>
+                    <td colspan="3" style="text-align: right;"><b>S/ 360.00</b></td>
+                </tr>
+                <tr>
+                    <td colspan="5" style="text-align: center;"><b>Detalle de consumos</b></td>
+                </tr>
+                <tr>
+                    <td><b>CONCEPTO</b></td>
+                    <td><b>LLAMADAS</b></td>
+                    <td><b>DURACIÓN</b></td>
+                    <td><b>IMPORTE</b></td>
+                    <td><b>DESCUENTO</b></td>
+                </tr>
+                <tr>
+                    <td>Llamada internacional</td>
+                    <td style="text-align: center;">23</td>
+                    <td style="text-align: center;">10m 23s</td>
+                    <td style="text-align: center;">S/ 130.00</td>
+                    <td style="text-align: center;">0</td>
+                </tr>
+                <tr>
+                    <td>Llamada Metropolitana</td>
+                    <td style="text-align: center;">23</td>
+                    <td style="text-align: center;">10m 23s</td>
+                    <td style="text-align: center;">S/ 35.00</td>
+                    <td style="text-align: center;">0</td>
+                </tr>
+                <tr>
+                    <td colspan="2">TOTAL:</td>
+                    <td colspan="3" style="text-align: right;"><b>S/ 165.00</b></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>

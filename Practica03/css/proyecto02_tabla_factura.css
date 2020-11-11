@@ -1,0 +1,56 @@
+.recibo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+header{
+    display:flex;
+    justify-content: center;
+}
+
+.logo_claro {
+    width: 240px;
+    height: 160px;
+    margin-left: -80px;
+}
+
+.datos_cliente{
+    font-size: 14px;
+    margin-top: 11px;
+}
+
+.resumen_pago {
+    border: 2px red solid;
+    border-radius: 7px;
+    margin-left: 200px;
+    margin-top: 16px;
+}
+
+.resumen_pago tbody tr td {
+    text-align: center;
+}
+
+.resumen_pago tbody tr td{
+    border-top: 2px red solid;
+}
+
+hr{
+    border: 2px red solid;
+    margin-left: 195px;
+    margin-right: 210px;
+}
+
+.factura {
+    border-collapse: collapse;
+    border: 2px black solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.factura td {
+    border: 2px black solid;
+}

@@ -1,0 +1,246 @@
+body{
+    margin: 0px auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 170px 60px 520px 200px ;
+    grid-template-areas: "myheader myheader" "mynav mynav" "mysection myaside" "myfooter myfooter";
+}
+
+header{
+    grid-area: myheader;
+    display: flex;
+    background-color: lightseagreen;
+}
+
+nav{
+    grid-area: mynav;
+    background-color: black;
+}
+
+section{
+    grid-area: mysection;
+    padding-right: 10px;
+}
+
+.frm{
+    display: grid;
+    grid-template-areas: "formulario comunicarse";
+    grid-template-columns: 70% 30%;
+}
+
+aside{
+    grid-area: myaside;
+    background-color: rgb(47, 201, 193);
+}
+
+footer{
+    grid-area: myfooter;
+}
+
+.img_perfil{
+    width: 200px;
+    margin: 5px 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-right: 60px;
+    font-size: 20px;
+}
+
+.menu_aside{
+    background-color: lightseagreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.interes_aside{
+    background-color: lightseagreen;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer_1{
+    display: flex;
+    background-color: lightseagreen;
+}
+
+.footer2{
+    background-color: black;
+    color: blanchedalmond;
+    border: 1px solid;
+    text-align: center;
+}
+
+footer img{
+    width: 190px;
+    margin: 5px 10px;
+}
+
+.footer_1_contacto{
+    margin-right: 60px;
+    margin-left: 40px;
+}
+
+.footer_1_siguenos{
+    margin-right: 60px;
+}
+
+.footer_1_interes{
+    margin-right: 60px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.estoyAca a{
+    border-bottom: 2px blanchedalmond solid;
+}
+
+nav ul li a:hover{
+    border-bottom: 2px solid blanchedalmond;
+}
+
+.footer_1_siguenos ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer_1_interes ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer_1_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu_aside ul li{
+    margin-bottom: 10px;
+}
+
+.interes_aside ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_contacto ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_siguenos ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_interes ul li{
+    margin-bottom: 10px;
+}
+
+.footer_1_menu ul li {
+    margin-bottom: 10px;
+}
+
+.formulario{
+    grid-area: formulario;
+    margin-left: 40px;
+}
+
+
+.comunicarse{
+    grid-area: comunicarse;
+
+}
+
+.formulario_comu{
+    background-color: rgb(47, 201, 193);
+    padding: 30px;
+}
+
+section h2{
+    margin-left: 40px;
+}
+
+
+.nombre label{
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+.apellidos label{
+    margin-right: 22px;
+    font-size: 15px;
+}
+
+.email label{
+    margin-right: 47px;
+    font-size: 15px;
+}
+
+.mensaje{
+    display: flex;
+}
+
+.mensaje label{
+    margin-right: 31px;
+    font-size: 15px;
+}
+
+.nombre, .apellidos, .email, .mensaje{
+    margin-bottom: 15px;
+}
+
+.nombre input, .apellidos input , .email input{
+    height: 20px;
+    width: 540px;
+    background-color: rgb(100, 87, 219);
+    color: white;
+}
+
+.mensaje textarea{
+    width: 540px;
+    height: 100px;
+    background-color: rgb(100, 87, 219);
+    color: white;
+}
+
+.nombre input::placeholder, .apellidos input::placeholder , .email input::placeholder{
+    color: white;
+}
+
+.botones button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.menu_aside ul li a:hover{
+    color: white;
+}
+
+.interes_aside ul li a:hover{
+    color: white;
+}
+
+.footer_1_siguenos ul li a:hover{
+    color: white;
+}
+
+.footer_1_interes ul li a:hover{
+    color: white;
+}
+
+.footer_1_menu ul li a:hover{
+    color: white;
+}
